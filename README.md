@@ -70,5 +70,7 @@ For this, follow the steps below :
 
 * **Suyash Awasthi** - *Initial work* - [suyash2810](https://github.com/suyash2810)
 
+## License
 
+This project is licensed under the MIT License - see the [LICENSE.md](License.md) file for details
 
