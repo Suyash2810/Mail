@@ -32,65 +32,43 @@ To set the login information to your own account through which the emails will b
 
 
 ```
-
+1. At line 8 initialize the variable 'youraddress' with your gmail account for sending the mails.
+2. At line 9 initialize the variable 'yourpassword' with the password of your account.  
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+To set the login information to your own account through which the emails will be sent, follow the steps below:
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
 
 ```
-Give an example
+1. At line 8 initialize the variable 'youraddress' with your gmail account for sending the mails.
+2. At line 9 initialize the variable 'yourpassword' with the password of your account.  
 ```
 
-### And coding style tests
+## Running the program
 
-Explain what these tests test and why
+To run the program go the folder 'Mail' and type the command : py ./mail.py 
+
+If the setup of python has been right then the program will run.
+
+### Account Login Issue
+
+It might happen that the script may not run because of account login process being blocked by Gmail.
+For this, follow the steps below :
 
 ```
-Give an example
+1. Login to your account.
+2. Go to https://myaccount.google.com/intro/security
+3. On the left side select apps with account access.
+4. Scroll down and turn on the 'Allow less secure apps' option.
+5. Done!
 ```
 
-<!--
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Suyash Awasthi** - *Initial work* - [suyash2810](https://github.com/suyash2810)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
