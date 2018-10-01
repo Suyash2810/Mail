@@ -1,0 +1,7 @@
+Dear ${PERSON_NAME}, 
+
+Hello there! This is a simple text message. 
+Work hard and then have a great weekend.
+
+
+Yours Truly
