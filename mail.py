@@ -24,7 +24,7 @@ def get_contacts(filename):
 
 def read_template(filename):
     """
-    Returns a Template object comprising the contents of the 
+    Returns a Template object consisting of the contents of the 
     file specified by filename.
     """
     
@@ -33,10 +33,10 @@ def read_template(filename):
     return Template(template_file_content)
 
 def main():
-    names, emails = get_contacts('myContacts.txt') # read contacts
-    message_template = read_template('message.txt') #reading the message 
+    names, emails = get_contacts('myContacts.txt') # read contacts from the file
+    message_template = read_template('message.txt') #reading the message from the file
 
-    # set up the SMTP server
+    # Setting up the SMTP server
     s = smtplib.SMTP(host='smtp.gmail.com', port=587)
     s.starttls()
     s.login(youraddress, yourpassword)
@@ -45,10 +45,10 @@ def main():
     for name, email in zip(names, emails):
         msg = MIMEMultipart()       # create a message
 
-        # add in the actual person name to the message template
+        # add in the actual person name to the message template in message.txt
         message = message_template.substitute(PERSON_NAME=name.title())
 
-        # Prints out the message body for our sake
+        # Prints out the message body for checking out its success
         print(message)
 
         # setup the parameters of the message
@@ -56,7 +56,7 @@ def main():
         msg['To']=email
         msg['Subject']="This is a test for a sample mail."
         
-        # add in the message body
+        # Adding the message body
         msg.attach(MIMEText(message, 'plain'))
         
         # send the message via the server set up earlier.
