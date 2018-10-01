@@ -1,7 +1,9 @@
 Dear ${PERSON_NAME}, 
 
-Hello there! This is a simple text message. 
+Hello there! This is a simple text message for a sample email script using python.
+Coding is amazing.
 Work hard and then have a great weekend.
 
 
-Yours Truly
+Thanks and Regards
+XYZ
