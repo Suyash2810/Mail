@@ -46,7 +46,7 @@ To set the login information to your own account through which the emails will b
 
 ## Running the program
 
-To run the program go the folder 'Mail' and type the command : py ./mail.py 
+To run the program go to the folder 'Mail' and type the command : py ./mail.py 
 
 If the setup of python has been right then the program will run.
 
