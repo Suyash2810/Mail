@@ -36,14 +36,6 @@ To set the login information to your own account through which the emails will b
 2. At line 9 initialize the variable 'yourpassword' with the password of your account.  
 ```
 
-To set the login information to your own account through which the emails will be sent, follow the steps below:
-
-
-```
-1. At line 8 initialize the variable 'youraddress' with your gmail account for sending the mails.
-2. At line 9 initialize the variable 'yourpassword' with the password of your account.  
-```
-
 ## Running the program
 
 To run the program go to the folder 'Mail' and type the command : py ./mail.py 
